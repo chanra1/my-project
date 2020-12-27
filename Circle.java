@@ -21,4 +21,8 @@ public class Circle {
     public  double getArea() {
         return  Math.PI * this.getRadius() * this.getRadius();
     }
+    public void print(){
+        System.out.print("hello edit test");
+   }
+    
 }
